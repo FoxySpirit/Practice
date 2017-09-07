@@ -1,0 +1,71 @@
+
+
+/* text settings*/
+.tex{
+font-family: Broadway;
+font-size: 30px;
+  text-align: center;
+      padding-top: 200px;
+    }
+/* Set content width */
+.pg{
+  max-width: 920px;
+ margin: auto;
+}
+
+/* Monochrome background */
+.bgr{
+   background-color: #ff6e4a;
+/*   min-height: 100%; */
+   position: relative;
+   background-size: cover;
+}
+
+/*backgroung for text*/
+.wb{
+
+  background-color: white;
+  min-height: 100%;
+  background-position-x: center;
+
+}
+
+
+/*shadow for a 2-nd list*/
+.shad{
+    position: relative;
+display:block;
+
+  height: 500px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  }
+
+/* 2-nd list */
+.list2{
+    background-image: url('i1.jpg');
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+       background-size: cover;
+}
+
+/* Heading style */
+#he1 {
+       color:#ff0000;
+       padding-top: 50px;
+       text-align: center;
+       font-family: Broadway;
+       font-size: 30px
+}
+#l1b, #l1t{
+  height: 100vh;
+}
+
+#l3{
+  height: 500px;
+}
