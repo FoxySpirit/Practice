@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <style>
+
+
+  body {
+     background-color: #ff6e4a;
+     margin-bottom: 0px;
+  }
+
+/* text settings*/
+.tex{
+font-family: Broadway;
+font-size: 30px;
+    text-align: center;
+        padding-top: 200px;
+      }
+
+/*backgroung for text*/
+  .wb{
+    max-width: 920px;
+   margin: auto;
+    background-color: white;
+    height: 1000px;
+    background-position-x: center;
+
+  }
+
+
+/*shadow for a 2-nd list*/
+  .shad{
+      position: relative;
+  display:block;
+    width: 920px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    }
+
+/* 2-nd list */
+  .list2{
+      background-image: url('i1.jpg');
+    background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+         background-size: cover;
+
+
+
+  }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="wb">
+
+      <h1 style="color:#ff0000;
+              padding-top: 50px;
+              text-align: center;
+              font-family: Broadway;
+              font-size: 30px">
+         Let's start from here
+       </h1>
+    <p class="tex"> Here is some text for example </p>
+
+    </div>
+
+    <div class="list2">
+          <div class="wb">
+      <div class="shad">
+        <p class="tex"> A bit more text <br>
+                        But shadowed
+                            </p>
+    </div>
+        </div>
+  </div>
+
+    <div class="wb">
+    <p class="tex">
+       And some contacts of mr.Nobody: <br>
+       <a href="mailto:none@any.nn">
+         Contact me
+       </a>
+       </p>
+
+    </div>
+
+</body>
+</html>
